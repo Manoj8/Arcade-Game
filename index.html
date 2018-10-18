@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <h1>Arcade Game</h1>
+    <section class="opaque">
+        <div class="inln" id="time">
+            Time : <span id="minutes">00:00 </span><span id="seconds"></span>
+        </div>
+
+        <div class="inln" id="sc">
+            Score : <span id="score"></span>
+        </div>
+        <div class="inln heart">
+            Heart : 
+            <span class="fa fa-heart first"></span>
+            <span class="fa fa-heart second"></span>
+            <span class="fa fa-heart third"></span>        
+        </div>
+    </section>
+
+    <div class="container" id="popup">
+        <img src="https://media.giphy.com/media/l4pTaPLe9R3xlFdrq/giphy.gif" width="250px" height="200">
+        <h3>You completed all the stages :)</h3>
+        <h4>Your score is <span id="total"></span>
+            <span id="sCount"></span>
+            and completed the game in <span id="timings"></span></h4>
+        <button onClick="window.location.reload();">Play again</button>
+    </div>
+
+    <div id="Over">
+       <img src="https://steamusercontent-a.akamaihd.net/ugc/449609914498904429/513D070A0C6CEDC071A3001A8335375DF291F6B6/" width="250px" height="200">
+        <h3>Good luck next time;)</h3>
+        <button onClick="window.location.reload();">Play again</button>
+    </div>
+    
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+
+</html>
