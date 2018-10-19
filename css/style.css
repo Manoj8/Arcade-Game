@@ -100,7 +100,7 @@ h4
 
 #time
 {  
-  margin:25px;
+  margin:15px;
 }
 
 #sc
@@ -113,9 +113,9 @@ h4
     margin:25px;
 }
 
-.fa-heart-o
+.fa-heart
 {
-    background: red;
+    color:#f00f15;
 }
 .over1
 {
