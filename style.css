@@ -1,0 +1,137 @@
+html
+{
+    background-color:royalblue;
+}
+
+body {
+    text-align: center;
+    background-image:url(https://zalarieunique.ru/images/clipart-library-spring-17.png);
+    background-repeat: no-repeat;
+    background-size: 100% 43.7%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ouch
+{
+    background: black;
+    color:white;
+    opacity:0.9;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 35px;
+    width:150px;
+    height:50px;
+    z-index:2;
+}
+.stage
+{
+    background: black;
+    color:white;
+    opacity:0.9;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px;
+    width:250px;
+    height:50px;
+    z-index:1;
+}
+
+canvas
+{
+    position: relative;
+    top:-975px;
+}
+
+section
+{
+    position:relative;
+    top:38px;
+    font-size: 25px;
+}
+
+.container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.win
+{
+    background-color:green;
+    width:60%;
+    height:600px;
+    margin-left:20%;
+    margin-top:-10px;
+    z-index:1;
+}
+
+
+button
+{
+    background-color: black;
+    color:azure;
+    font-size:20px;
+    width:200px;
+    height:40px;
+}
+
+.hide
+{
+    opacity:0.2;
+}
+
+h3
+{
+    font-size: 25px;
+}
+
+h4
+{
+    font-size: 20px;
+}
+
+.inln
+{
+    display: inline;
+}
+
+#time
+{  
+  margin:15px;
+}
+
+#sc
+{
+   margin: 30px;
+}
+
+.heart
+{
+    margin:25px;
+}
+
+.fa-heart
+{
+    color:#f00f15;
+}
+.over1
+{
+    background-color:red;
+    width:50%;
+    height:500px;
+    margin-left:25%;
+    margin-top:-350px;
+}
+
+#Over img
+{
+    margin-top: 50px;
+}
+
+.hide1
+{
+    visibility: hidden;
+}
