@@ -35,7 +35,7 @@ Use the arrow keys to move left, right, forward or backward.
     - States Overall description of project
     
     
-<img src="screenshots/Screenshot1.PNG">&ensp;
+<img src="screenshots/Screenshot1.PNG" width="100px" height="100px">&ensp;
 
 <img src="screenshots/Screenshot2.PNG">&ensp;
 
