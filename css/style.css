@@ -3,11 +3,12 @@ html
     background-color:royalblue;
 }
 
-body {
+body 
+{
     text-align: center;
     background-image:url(https://zalarieunique.ru/images/clipart-library-spring-17.png);
     background-repeat: no-repeat;
-    background-size: 100% 43.7%;
+    background-size: 100% 40%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -40,14 +41,15 @@ body {
 canvas
 {
     position: relative;
-    top:-975px;
+    top:-1000px;
 }
 
 section
 {
     position:relative;
-    top:38px;
-    font-size: 25px;
+    top:10px;
+    font-weight: bold;
+    font-size: 23px;
     font-family:sans-serif;
 }
 
@@ -62,10 +64,10 @@ section
 .win
 {
     background-color:green;
-    width:60%;
-    height:600px;
-    margin-left:20%;
-    margin-top:-10px;
+    width:57%;
+    height:580px;
+    margin-left:23%;
+    margin-top:-52px;
     z-index:1;
 }
 
@@ -79,18 +81,22 @@ button
     height:40px;
 }
 
+.heading
+{
+    font-size:30px; 
+    font-weight: bold;
+    font-family :Apple Chancery, cursive;
+    margin-top: 15px;
+}
+
 .hide
 {
     opacity:0.2;
 }
 
-h1
-{
-    font-family:sans-serif;
-}
-
 h3
 {
+    font-family:  Georgia, serif;
     font-size: 25px;
 }
 
@@ -106,17 +112,17 @@ h4
 
 #time
 {  
-  margin:15px;
+  margin-left:-10px;
 }
 
 #sc
 {
-   margin: 30px;
+   margin: 50px;
 }
 
 .heart
 {
-    margin:25px;
+    margin:-20px;
 }
 
 .fa-heart
@@ -129,7 +135,7 @@ h4
     width:50%;
     height:500px;
     margin-left:25%;
-    margin-top:-350px;
+    margin-top:-400px;
 }
 
 #Over img

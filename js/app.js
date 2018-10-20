@@ -424,9 +424,9 @@ function finish() //function call when the player has won the game and a popup t
     document.getElementById("timings").innerHTML = minute + "" + second + " minute :)";
     //resizes the background image   
     let bimg = document.querySelector("body");
-    bimg.style.backgroundSize = "100% 39.1%";
+    bimg.style.backgroundSize = "100% 37.1%";
     //removes background and displays the modal
-    let hide = document.querySelector('section');
+    let hide = document.querySelector('.opaque');
     hide.style.visibility = "hidden";
    let hrt = document.querySelector(".third");
     hrt.style.visibility = "hidden";
@@ -445,9 +445,9 @@ function gameover()
     won = 5;
     //sets the size of the background image
     let bimg = document.querySelector("body");
-    bimg.style.backgroundSize = "100% 50.4%";
+    bimg.style.backgroundSize = "100% 47.8%";
     //removes background and displays the modal
-    let hide = document.querySelector('section');
+    let hide = document.querySelector('.opaque');
     hide.style.visibility = "hidden";
     let h1 = document.querySelector('canvas');
     h1.style.visibility = "hidden";
