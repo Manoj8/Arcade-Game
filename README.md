@@ -7,7 +7,7 @@ The game is built using Javascript.
 ## How to use the controls
 Use the arrow keys to move left, right, forward or backward.
 
-##Files included
+## Files included
 
 1) style.css
         - css file for index.html which is used for styling the front-end8553675312.
@@ -35,8 +35,8 @@ Use the arrow keys to move left, right, forward or backward.
     - States Overall description of project
     
     
-<img src="screenshots/Screenshot1.PNG" width="600px" height="600px">&ensp;
+<img src="screenshots/Screenshot1.PNG" width="700px" height="700px">&ensp;
 
-<img src="screenshots/Screenshot2.PNG" width="600px" height="600px">&ensp;
+<img src="screenshots/Screenshot2.PNG" width="700px" height="700px">&ensp;
 
-<img src="screenshots/Screenshot3.PNG" width="600px" height="600px">&ensp;
+<img src="screenshots/Screenshot3.PNG" width="700px" height="700px">&ensp;
