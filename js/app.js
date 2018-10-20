@@ -91,7 +91,7 @@ Enemy.prototype.render = function ()  //draws the enemy on screen
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 
-var Player = function (x, y)  //player class
+let Player = function (x, y)  //player class
 {
     this.x = x;
     this.y = y;
@@ -134,26 +134,13 @@ Player.prototype.update = function () //ensures player doesn't go out of page
                 nxtstg.style.visibility = "hidden"
             }
             clearTimeout();
-            
             //sets different in each stage
-            if (won === 1) 
+            if(won<chars.length)
             {
-                this.plays = chars[1];
-                scores += 50;
+                this.plays=chars[won];
+                scores+=50;
             }
-            if (won === 2) {
-                this.plays = chars[2];
-                scores += 50;
-            }
-            if (won === 3) {
-                this.plays = chars[3];
-                scores += 50
-            }
-            if (won === 4) {
-                this.plays = chars[4];
-                scores += 50
-            }
-        } 
+        }
         //player winning
         else if (won === 4) 
         {
@@ -181,7 +168,7 @@ Player.prototype.update = function () //ensures player doesn't go out of page
         
         setTimeout(close, 1000);
         
-        if(over>1)
+        if(won<=4)
         {
             out.style.position = "relative";
             out.style.left = (this.x + 550) + "px";
@@ -227,20 +214,20 @@ enemypos.forEach(function (ypos)
     allEnemies.push(enemy);
 });
 
-var ob = function (x, y) //objects class
+var Ob = function (x, y) //objects class
 {
     this.x = x;
     this.y = y;
     this.obimg = objs[0];
 };
 
-ob.prototype.render = function () //draw an object
+Ob.prototype.render = function () //draw an object
 {
     ctx.drawImage(Resources.get(this.obimg), this.x, this.y);
 };
 
 //checks whether player has collected the objects and sets the score
-ob.prototype.update = function () 
+Ob.prototype.update = function () 
 {
     if ((playposx == this.x - 2) && (playposy == this.y - 16)) 
     {
@@ -306,11 +293,10 @@ ob.prototype.update = function ()
         inc = 1;
         console.log("hh");
     }
-     console.log(over);
     score();
 };
 
-var ob1 = new ob(202, 155); 
+var ob1 = new Ob(202, 155); 
 
 var Gem = function (x, y)  //gem class
 {
@@ -380,7 +366,7 @@ nxtstg.style.visibility = "hidden";
 
 function score()  //displays the score
 {
-    var sc = document.querySelector("#score");
+   let sc = document.querySelector("#score");
     sc.innerHTML = scores;
 }
 
@@ -390,7 +376,7 @@ let minute;
 
 document.addEventListener("keyup", function (e) //assigning arrow keys for player movement
 {
-    var allowedKeys = 
+   let allowedKeys = 
     {
         37: "left",
         38: "up",
@@ -442,7 +428,7 @@ function finish() //function call when the player has won the game and a popup t
     //removes background and displays the modal
     let hide = document.querySelector('section');
     hide.style.visibility = "hidden";
-    var hrt = document.querySelector(".third");
+   let hrt = document.querySelector(".third");
     hrt.style.visibility = "hidden";
     let h1 = document.querySelector('canvas');
     h1.style.visibility = "hidden";

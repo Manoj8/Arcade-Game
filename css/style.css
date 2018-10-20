@@ -48,6 +48,7 @@ section
     position:relative;
     top:38px;
     font-size: 25px;
+    font-family:sans-serif;
 }
 
 .container 
@@ -81,6 +82,11 @@ button
 .hide
 {
     opacity:0.2;
+}
+
+h1
+{
+    font-family:sans-serif;
 }
 
 h3
