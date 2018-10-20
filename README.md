@@ -9,13 +9,13 @@ Use the arrow keys to move left, right, forward or backward.
 
 ## Files included
 
-1) style.css &ensp;
+1) style.css
         - css file for index.html which is used for styling the front-end.
 
-2) images &ensp;
+2) images 
         - Consists of images used in game and the the Used resources.
 
-3) js &ensp;
+3) js
     i)app.js
         - Contains javascript code that handles game functionality.
     ii)engine.js 
@@ -25,7 +25,7 @@ Use the arrow keys to move left, right, forward or backward.
     iii)resource.js 
        - It is a image loading utility.
 
-4) index.html &ensp;
+4) index.html 
         - Displays web contents of game
         - Canvas of the game
         - The Timer starts with the game start 
