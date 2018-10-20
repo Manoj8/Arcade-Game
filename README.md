@@ -37,6 +37,6 @@ Use the arrow keys to move left, right, forward or backward.
     
 <img src="screenshots/Screenshot1.PNG" width="600px" height="600px">&ensp;
 
-<img src="screenshots/Screenshot2.PNG">&ensp;
+<img src="screenshots/Screenshot2.PNG" width="600px" height="600px">&ensp;
 
-<img src="screenshots/Screenshot3.PNG">&ensp;
+<img src="screenshots/Screenshot3.PNG" width="600px" height="600px">&ensp;
