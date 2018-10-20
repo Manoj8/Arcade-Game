@@ -16,19 +16,19 @@ Use the arrow keys to move left, right, forward or backward.
         - Consists of images used in game and the the Used resources.
 
 3) js &ensp;
-    i)app.js &ensp;
+    i)app.js
         - Contains javascript code that handles game functionality.
-    ii)engine.js &ensp;
+    ii)engine.js 
        - Contains game loop functionality 
 	   - Draws the initial game board on the screen, &
 	   - Calls update, render methods on player and enemy objects &ensp; 
     iii)resource.js 
-       - It is a image loading utility
+       - It is a image loading utility.
 
 4) index.html &ensp;
-        - Displays web contents of game,
-        - Canvas of the game, 
-        - The Timer starts with the game start, 
+        - Displays web contents of game
+        - Canvas of the game
+        - The Timer starts with the game start 
         - The Player Score and lifes. 
 
 5) readme.txt
