@@ -421,10 +421,10 @@ function finish() //function call when the player has won the game and a popup t
     over=5;
     document.getElementById('total').innerHTML = scores; //displays the score
     //displays the total number of time taken to finish the game
-    document.getElementById("timings").innerHTML = minute + "" + second + " minute :)";
+    document.getElementById("timings").innerHTML = minute + "" + second + " minute ";
     //resizes the background image   
     let bimg = document.querySelector("body");
-    bimg.style.backgroundSize = "100% 37.1%";
+    bimg.style.backgroundSize = "100% 37.3%";
     //removes background and displays the modal
     let hide = document.querySelector('.opaque');
     hide.style.visibility = "hidden";
