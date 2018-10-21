@@ -37,7 +37,7 @@ Use the arrow keys to move left, right, forward or backward.
   
 ## Loading the game
 
-To run this application, go to the following link https://github.com/Manoj8/Arcade-Game and download the GitHub zip file or clone the repository. Then extract the downloaded file and open or run index.html file to play the game.
+To run this application, go to the following link https://github.com/Manoj8/Arcade-Game and download the GitHub zip file or clone the repository. Then extract the downloaded file and open or run index.html file to play the game or open a browser and within it open the index.html file in the directory of the application.
 
 ## Screenshots
     
