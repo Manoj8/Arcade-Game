@@ -34,7 +34,11 @@ Use the arrow keys to move left, right, forward or backward.
 5) readme.txt
     
     - States Overall description of project
-    
+  
+## Loading the game
+
+To run this application, go to the following link https://github.com/Manoj8/Arcade-Game and download the GitHub zip file or clone the repository. Then extract the downloaded file and open or run index.html file to play the game.
+
 ## Screenshots
     
 <img src="screenshots/Screenshot1.PNG" width="800px" height="650px">&ensp;
